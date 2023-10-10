@@ -1,0 +1,11 @@
+/home/spaceboy/space_tools/models/jtech_models/obj/Debug/net7.0/jtech_models.GeneratedMSBuildEditorConfig.editorconfig
+/home/spaceboy/space_tools/models/jtech_models/obj/Debug/net7.0/jtech_models.AssemblyInfoInputs.cache
+/home/spaceboy/space_tools/models/jtech_models/obj/Debug/net7.0/jtech_models.AssemblyInfo.cs
+/home/spaceboy/space_tools/models/jtech_models/obj/Debug/net7.0/jtech_models.csproj.CoreCompileInputs.cache
+/home/spaceboy/space_tools/models/jtech_models/bin/Debug/net7.0/jtech_models.deps.json
+/home/spaceboy/space_tools/models/jtech_models/bin/Debug/net7.0/jtech_models.dll
+/home/spaceboy/space_tools/models/jtech_models/bin/Debug/net7.0/jtech_models.pdb
+/home/spaceboy/space_tools/models/jtech_models/obj/Debug/net7.0/jtech_models.dll
+/home/spaceboy/space_tools/models/jtech_models/obj/Debug/net7.0/refint/jtech_models.dll
+/home/spaceboy/space_tools/models/jtech_models/obj/Debug/net7.0/jtech_models.pdb
+/home/spaceboy/space_tools/models/jtech_models/obj/Debug/net7.0/ref/jtech_models.dll
