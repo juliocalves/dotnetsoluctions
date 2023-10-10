@@ -1,0 +1,7 @@
+.vscode
+app.db
+bin/
+obj/
+Migrations/
+.vs
+```
