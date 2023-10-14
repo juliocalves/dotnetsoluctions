@@ -1,0 +1,17 @@
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  @foreach (var item in items)
+  {
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="@item.Path">
+        <i class="@item.Icon"></i>
+        @item.Name</a>
+    </li>
+  }
+</ul>
+
+
+@code{
+    [Parameter]
+    public List<jtech_models.config.MenuItem> items { get; set; }
+
+}

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace jtech_dml.Financeiro
+namespace jtech_models.Financeiro
 {
     [Table("FaturasCartaoCredito")]
     public class FaturaCartaoCredito

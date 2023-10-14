@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/home/spaceboy/space_tools/web_apps/jtech_gtarefas/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/spaceboy/space_tools/web_apps/jtech_gtarefas/obj/Debug/net7.0/build-gz/7CUsGdgJ.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/home/spaceboy/space_tools/web_apps/jtech_gtarefas/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/spaceboy/space_tools/web_apps/jtech_gtarefas/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.jtech_gtarefas.props",
+      "PackagePath": "build\\jtech_gtarefas.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.jtech_gtarefas.props",
+      "PackagePath": "buildMultiTargeting\\jtech_gtarefas.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.jtech_gtarefas.props",
+      "PackagePath": "buildTransitive\\jtech_gtarefas.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.jtech_gtarefas.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

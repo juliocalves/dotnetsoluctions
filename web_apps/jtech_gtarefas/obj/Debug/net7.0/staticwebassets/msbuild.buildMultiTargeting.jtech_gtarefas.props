@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/jtech_gtarefas.props" />
+</Project>

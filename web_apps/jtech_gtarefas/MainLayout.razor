@@ -1,0 +1,121 @@
+﻿@inherits LayoutComponentBase;
+
+<main class="container-fluid" style="min-height: 100vh; display: flex; flex-direction: column; padding:1% 0">
+    <div class="row" style="flex: 1;">
+        <section class="col-2 flex-column" style="width: fit-content">
+            <jtech_gtarefas.Components.Navegacao.MenuBase  menu="@menuVertical"/>
+        </section>
+        <section class="col-10">
+            <section>
+                <jtech_gtarefas.Components.Navegacao.MenuBase  menu="@menuHorizontal"/>
+                <section class="container-fluid" style="display: flex; flex-direction: column; padding:1% 0">
+                    <div class="row container-fluid" style="flex: 1; overflow-y: auto; max-height: 80vh;">
+                        @Body
+                    </div>
+                    <!-- Footer no final da página -->
+                    <div class="row">
+                        <jtech_gtarefas.Components.FooterBase/>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </div>
+</main>
+
+
+@code{
+    private jtech_models.config.TemplateUi templateUi;
+    private jtech_models.config.Menu menuVertical;
+    private jtech_models.config.Menu menuConfig;
+    private jtech_models.config.Menu menuHorizontal;
+    protected override void OnInitialized()
+    {
+        templateUi = new jtech_models.config.TemplateUi(){
+
+            TempUiMenus = new List<jtech_models.config.Menu>()
+            {
+                new jtech_models.config.Menu(){
+                    Name = "jtech-gtarefas",
+                    MenuStyle = jtech_models.config.MenuStyle.Sidebar,
+                    BrandIconPath = "/images/logo.png",
+                    MenuItems = new List<jtech_models.config.MenuItem>()
+                    {
+                        new jtech_models.config.MenuItem()
+                        {
+                            Name = "Home",
+                            Icon = "bi bi-house",
+                            Path = "/"
+                        },
+                        new jtech_models.config.MenuItem()
+                        {
+                            Name = "Tarefas",
+                            Icon = "bi bi-list-task",
+                            Path = "/tarefas"
+                        },
+                        new jtech_models.config.MenuItem()
+                        {
+                            Name = "Usuários",
+                            Icon = "bi bi-person",
+                            Path = "/usuarios"
+                        },
+                        new jtech_models.config.MenuItem()
+                        {
+                            Name = "Configurações",
+                            Icon = "bi bi-house-gear",
+                            Path = "/configuracoes",
+                            IsSecondary = true,
+                        },
+                    }
+                },
+                new jtech_models.config.Menu(){
+                    Name = "jtech-gtarefas",
+                    MenuStyle = jtech_models.config.MenuStyle.Topbar,
+                    BrandIconPath = "/images/logo.png",
+                    MenuItems = new List<jtech_models.config.MenuItem>()
+                    {
+                        new jtech_models.config.MenuItem()
+                        {
+                            Name = "Home",
+                            Icon = "fas fa-home",
+                            Path = "/"
+                        },
+                        new jtech_models.config.MenuItem()
+                        {
+                            Name = "Tarefas",
+                            Icon = "fas fa-tasks",
+                            Path = "/tarefas"
+                        },
+                        new jtech_models.config.MenuItem()
+                        {
+                            Name = "Usuários",
+                            Icon = "fas fa-users",
+                            Path = "/usuarios"
+                        },
+                        new jtech_models.config.MenuItem()
+                        {
+                            Name = "Sair",
+                            Icon = "fas fa-sign-out-alt",
+                            Path = "/sair"
+                        },
+                         new jtech_models.config.MenuItem()
+                        {
+                            Name = "",
+                            Icon = "bi bi-bell-fill",
+                            Path = "/alertas",
+                            IsSecondary = true
+                        },
+                         new jtech_models.config.MenuItem()
+                        {
+                            Name = "",
+                            Icon = "bi bi-box-arrow-right",
+                            Path = "/sair",
+                            IsSecondary = true
+                        }
+                    }
+                }
+            }
+        };
+        menuVertical = templateUi.TempUiMenus.Where(x => x.MenuStyle == jtech_models.config.MenuStyle.Sidebar).FirstOrDefault();
+        menuHorizontal = templateUi.TempUiMenus.Where(x => x.MenuStyle == jtech_models.config.MenuStyle.Topbar).FirstOrDefault();
+    }
+}

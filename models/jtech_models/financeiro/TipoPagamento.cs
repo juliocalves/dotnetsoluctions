@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace jtech_dml.Financeiro
+namespace jtech_models.Financeiro
 {
     [Table("TiposPagamento")]
     public class TipoPagamento

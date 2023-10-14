@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace jtech_dml.Financeiro
+namespace jtech_models.Financeiro
 {
     [Table("Despesas")]
     public class Despesa

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace jtech_dml.Financeiro
+namespace jtech_models.Financeiro
 {
     [Table("Receitas")]
     public class Receita

@@ -1,0 +1,54 @@
+<!-- NavTabList.razor -->
+<nav>
+  <div class="nav nav-tabs custom-tabs" id="nav-tab" role="tablist">
+    @foreach (var tab in Tabs)
+    {
+        <button class="nav-link @(tab.IsActive ? "active" : "")" id="@tab.NavId" data-bs-toggle="tab" data-bs-target="#@tab.ContentId"
+            type="button" role="tab" aria-controls="@tab.ContentId" aria-selected="@(tab.IsActive ? "true" : "false")">@tab.Label</button>
+    }
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+    @foreach(var tab in Tabs)
+    {
+      <div class="tab-pane fade @(tab.IsActive ? "show active" :"")" id="@tab.ContentId" role="tabpanel" aria-labelledby="@tab.NavId" tabindex="0">
+          @tab.Content
+      </div>
+    }
+</div>
+
+<style>
+    /* Estilos para a fonte do cabeçalho */
+    .custom-tabs .nav-link {
+        font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+    /* Estilos para o scroll apenas no conteúdo da tab */
+    .custom-tab-content {
+        overflow-y: auto; /* Adiciona scroll vertical apenas ao conteúdo */
+        max-height: calc(100vh - 80px); /* Ajuste conforme necessário, subtraia a altura do cabeçalho e outros elementos se aplicável */
+    }
+</style>
+
+@code {
+    [Parameter]
+    public List<TabItem> Tabs { get; set; }
+
+    private void TabClicked(TabItem tab)
+    {
+        foreach (var t in Tabs)
+        {
+            t.IsActive = (t == tab);
+        }
+    }
+
+    public class TabItem
+    {
+        public string NavId { get; set; }
+        public string ContentId { get; set; }
+        public string Label { get; set; }
+        public bool IsActive { get; set; }
+        public string Target { get; set; }
+        public RenderFragment Content { get; set; }
+    }
+
+}

@@ -1,10 +1,10 @@
-﻿using jtech_dml.MateriaPrima;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using jtech_models.vendas;
 
-namespace jtech_dml.Financeiro
+namespace jtech_models.Financeiro
 {
     [Table("ContasPagar")]
     public class ContasPagar
@@ -24,11 +24,11 @@ namespace jtech_dml.Financeiro
         public DateTime ContPagDataVencimento { get; set; }
         [ForeignKey("Fornecedor")]
         public int ContPagFornecedor { get; set; }
-        public virtual Fornecedores Fornecedor { get; set; }
+        public Fornecedor Fornecedor { get; set; }
         public bool ContPagStatusPagamento { get; set; }
         [ForeignKey("TipoPagamento")]
         public int ContPagTipoPagamento { get; set; }
-        public virtual TipoPagamento TipoPagamento { get; set; }
+        public TipoPagamento TipoPagamento { get; set; }
         public int ContPagStatus { get; set; }
         //revisar regra de calculos de juros e amortização
         public float ContPagTaxaJuros { get; set; }

@@ -1,0 +1,44 @@
+﻿@switch(@menu.MenuStyle){
+    case jtech_models.config.MenuStyle.Sidebar:
+        <nav class="nav flex-column  navbar-ligth bg-light" style="height: 100%;justify-content: space-between;" >
+            <div class="container-fluid">
+                <LogoMenuBase menu="@menu"/>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <MenuItemBase items="@menuPrimary"/>
+            </div>
+            <div class="container-fluid">
+                <MenuItemBase items="@menuSecondary" />
+            </div>
+        </nav>
+        break;
+    case jtech_models.config.MenuStyle.Topbar:
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <MenuItemBase items="@menuPrimary"/>
+                </div>
+                <MenuItemBase items="@menuSecondary" />
+            </div>
+        </nav>
+        break;
+}
+
+
+
+@code {
+    [Parameter]
+    public jtech_models.config.Menu menu { get; set; }
+    private List<jtech_models.config.MenuItem> menuPrimary;
+    private List<jtech_models.config.MenuItem> menuSecondary;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        menuPrimary = menu.MenuItems.Where(i => i.IsSecondary == false).ToList();
+        menuSecondary = menu.MenuItems.Where(i => i.IsSecondary).ToList();
+    }
+}

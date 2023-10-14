@@ -1,0 +1,60 @@
+﻿@page "/"
+<jtech_gtarefas.Components.TabControlBase Tabs="@tabItems"/>
+
+
+@code {
+   
+    private List<jtech_gtarefas.Components.TabControlBase.TabItem> tabItems = new List<jtech_gtarefas.Components.TabControlBase.TabItem>
+    {
+        new jtech_gtarefas.Components.TabControlBase.TabItem
+        {
+            Label = "Tab 1",
+            IsActive = true,
+            NavId = "nav-tab1",
+            ContentId = "tab1",
+            Target = "#tab1",
+            Content = @<div>
+                            <h3>Conteúdo da aba 1</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nome</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Item 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Item 2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+        },
+        new jtech_gtarefas.Components.TabControlBase.TabItem
+        {
+            Label = "Tab 2",
+            IsActive = false,
+            NavId = "nav-tab2",
+            ContentId = "tab2",
+            Target = "#tab2",
+            Content = @<jtech_gtarefas.Components.PaginacaoBase/>
+        },
+        new jtech_gtarefas.Components.TabControlBase.TabItem
+        {
+            Label = "Tab 3",
+            IsActive = false,
+            NavId = "nav-tab3",
+            ContentId = "tab3",
+            Target = "#tab3",
+            Content = @<div>
+                            <h3>Conteúdo da aba 3</h3>
+                            <p>Este é o conteúdo da aba 3.</p>
+                        </div>
+        }
+    };
+}

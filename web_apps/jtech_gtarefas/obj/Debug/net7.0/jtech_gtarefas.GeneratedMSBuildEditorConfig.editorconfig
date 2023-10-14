@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = jtech_gtarefas
+build_property.RootNamespace = jtech_gtarefas
+build_property.ProjectDir = /home/spaceboy/space_tools/web_apps/jtech_gtarefas/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/spaceboy/space_tools/web_apps/jtech_gtarefas
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/ContentBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db250ZW50QmFzZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/FooterBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Gb290ZXJCYXNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/Input/BuscaBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9JbnB1dC9CdXNjYUJhc2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/Navegacao/LogoMenuBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZlZ2FjYW8vTG9nb01lbnVCYXNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/Navegacao/MenuBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZlZ2FjYW8vTWVudUJhc2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/Navegacao/MenuItemBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZlZ2FjYW8vTWVudUl0ZW1CYXNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/Navegacao/SubMenuHorizontalBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZlZ2FjYW8vU3ViTWVudUhvcml6b250YWxCYXNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/PaginacaoBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFjYW9CYXNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/TabControlBase.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYWJDb250cm9sQmFzZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
