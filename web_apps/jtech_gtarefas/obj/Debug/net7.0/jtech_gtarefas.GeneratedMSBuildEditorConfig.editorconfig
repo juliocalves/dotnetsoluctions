@@ -44,10 +44,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZlZ2FjYW8vTWVudUl0ZW1CYXNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/Navegacao/SubMenuHorizontalBase.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZlZ2FjYW8vU3ViTWVudUhvcml6b250YWxCYXNlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Components/PaginacaoBase.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdpbmFjYW9CYXNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,8 +56,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Pages/Tarefas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFyZWZhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/spaceboy/space_tools/web_apps/jtech_gtarefas/Pages/Usuarios.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXN1YXJpb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/spaceboy/space_tools/web_apps/jtech_gtarefas/_Imports.razor]

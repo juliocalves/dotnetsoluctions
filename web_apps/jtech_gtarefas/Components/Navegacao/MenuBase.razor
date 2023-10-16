@@ -1,10 +1,11 @@
 ﻿@switch(@menu.MenuStyle){
     case jtech_models.config.MenuStyle.Sidebar:
-        <nav class="nav flex-column  navbar-ligth bg-light" style="height: 100%;justify-content: space-between;" >
+        <nav class="nav flex-column navbar-ligth " 
+            style="height: 100%;justify-content: space-between; background-color:#C3D69B; border-radius:20px;"  >
             <div class="container-fluid">
                 <LogoMenuBase menu="@menu"/>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <MenuItemBase items="@menuPrimary"/>
@@ -15,16 +16,18 @@
         </nav>
         break;
     case jtech_models.config.MenuStyle.Topbar:
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#C3D69B; border-radius:20px;">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <MenuItemBase items="@menuPrimary"/>
+                    <MenuItemBase items="@menuPrimary"/>
                 </div>
                 <MenuItemBase items="@menuSecondary" />
             </div>
         </nav>
         break;
 }
+
+
 
 
 

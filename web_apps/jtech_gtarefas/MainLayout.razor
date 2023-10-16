@@ -1,23 +1,21 @@
 ﻿@inherits LayoutComponentBase;
 
-<main class="container-fluid" style="min-height: 100vh; display: flex; flex-direction: column; padding:1% 0">
+<main class="container-fluid" style="min-height: 100vh; display: flex; flex-direction: column; padding:1% 0;">
     <div class="row" style="flex: 1;">
-        <section class="col-2 flex-column" style="width: fit-content">
+        <aside class="col-2 flex-column" style="width: fit-content">
             <jtech_gtarefas.Components.Navegacao.MenuBase  menu="@menuVertical"/>
-        </section>
-        <section class="col-10">
-            <section>
+        </aside>
+        <section class="col-10 container-fluid" style="width:87%">
                 <jtech_gtarefas.Components.Navegacao.MenuBase  menu="@menuHorizontal"/>
                 <section class="container-fluid" style="display: flex; flex-direction: column; padding:1% 0">
                     <div class="row container-fluid" style="flex: 1; overflow-y: auto; max-height: 80vh;">
                         @Body
                     </div>
                     <!-- Footer no final da página -->
-                    <div class="row">
-                        <jtech_gtarefas.Components.FooterBase/>
-                    </div>
                 </section>
-            </section>
+            <div class="row" >
+                <jtech_gtarefas.Components.FooterBase/>
+            </div>
         </section>
     </div>
 </main>
@@ -35,9 +33,9 @@
             TempUiMenus = new List<jtech_models.config.Menu>()
             {
                 new jtech_models.config.Menu(){
-                    Name = "jtech-gtarefas",
+                    Name = "JTECH",
                     MenuStyle = jtech_models.config.MenuStyle.Sidebar,
-                    BrandIconPath = "/images/logo.png",
+                    BrandIconPath = "logo.png",
                     MenuItems = new List<jtech_models.config.MenuItem>()
                     {
                         new jtech_models.config.MenuItem()

@@ -199,14 +199,14 @@
       "netstandard.dll": "sha256-Cr6slBs\/R2v2t\/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs\/Mi4KQ+DZygXnoK+vJ+jHyk=",
       "jtech_models.dll": "sha256-Uvl+j8wcUdx63H4p7S+fpquiZehdr+JQ\/YBsvgY5rKE=",
-      "jtech_gtarefas.dll": "sha256-k2vWw3jHTxuIwwEDsliGaYqjN+4KQ2yVXaHNt0BnpL0="
+      "jtech_gtarefas.dll": "sha256-tdOYyBFNhzitJ4JNHGFrsXKp9PDuxwOu4uNsGq3kqLY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "jtech_models.pdb": "sha256-7MY04pKwNKcFkZuhg6x+BW0wFgTJUrnW9cUkKVdo5dM=",
-      "jtech_gtarefas.pdb": "sha256-ejWn\/erCCOs9yHuJcbX\/FuPoh8ffnYsrMhELlV6\/NCA="
+      "jtech_gtarefas.pdb": "sha256-64cRp57XsemQWYxBe5tIqYgSKQYJUL56cjkIqgK4cQA="
     },
     "runtime": {
       "dotnet.7.0.11.43gqrzs6lh.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",

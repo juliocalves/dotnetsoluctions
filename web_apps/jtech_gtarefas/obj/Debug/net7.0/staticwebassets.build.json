@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZUuR8FQ9y/vPBlfGgULAU3k3vPYm6z7Nt2HqZ94Q96g=",
+  "Hash": "54dEkC0raI2C4SDQrCIeP6UXpZFoIoYQ3sFnvMfTe2A=",
   "Source": "jtech_gtarefas",
   "BasePath": "/",
   "Mode": "Root",
@@ -6968,6 +6968,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/spaceboy/space_tools/web_apps/jtech_gtarefas/wwwroot/logo.png",
+      "SourceId": "jtech_gtarefas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/spaceboy/space_tools/web_apps/jtech_gtarefas/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/logo.png"
     }
   ]
 }

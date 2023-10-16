@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/index.html"
     },
     {
+      "Id": "/home/spaceboy/space_tools/web_apps/jtech_gtarefas/wwwroot/logo.png",
+      "PackagePath": "staticwebassets/logo.png"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.jtech_gtarefas.props",
       "PackagePath": "build\\jtech_gtarefas.props"
     },
